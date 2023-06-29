@@ -1,0 +1,53 @@
+.compromiso {
+    margin-top: 80px;
+    background-color: #F2F2F2B2;
+}
+
+.compromiso h2 {
+    text-align: center;
+    align-items: center;
+    
+    padding-top: 30px;
+}
+
+
+
+.contenido2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#sillaVerde {
+    width: 450px;
+    height: 450px;
+    margin: 20px 0 50px 50px;
+    border-radius: 5px;
+    
+}
+
+.parrafoImg {
+    display: flex;
+    align-items: center;
+    
+}
+
+.parrafoImg img {
+    width: 52px;
+    height: 52px;
+}
+
+.parrafoImg p {
+    margin-left: 40px;
+}
+
+.parrafo2 {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.parrafo2 p {
+   margin-right: 20%;
+}
