@@ -1,0 +1,39 @@
+.container
+{
+    border-radius: 50px;
+}
+
+p
+{
+    font-size: 18px;
+
+}
+h1
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bg-primary
+{
+    background-color: #456884!important;
+}
+.contactForm .form-control
+{
+    height: 60px;
+    background: #fff;
+    color: rgba(0,0,0,0.8);
+    font-size: 25px;
+    border-radius: 20px;
+    box-shadow: none!important;
+    border: 1px solid rgba(0,0,0,0.1);
+
+}
+.btn-primary
+{
+    background-color: #456884;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.bi
+{
+    font-size: 40px;
+}
