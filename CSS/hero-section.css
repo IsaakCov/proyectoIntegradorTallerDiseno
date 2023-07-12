@@ -1,0 +1,60 @@
+.sidebar {background-color:rgb(116, 152, 184);
+    backdrop-filter: blur(10px);}
+
+.btn-cotiza
+{
+    background-color: rgb(65, 105, 145);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+#nav-principal
+{
+    background-color: white;
+    margin-bottom: 10px;
+    height: 50px;
+}
+
+
+.btn{
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+
+.btn.btn-primary,
+.btn.btn-secondary
+{
+    color: white;
+}
+
+/* header */
+
+.carousel-caption
+{
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index:1;
+    background-color: rgba(9, 16, 47, 0.6);
+}
+
+.carousel-control-prev,
+.carousel-control-next
+{
+    width:10%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon
+{
+    width:3rem;
+    height:3rem;
+}
+
+#nav-principal
+{background-color: white;}
+
