@@ -34,6 +34,20 @@ footer {
   color: white;
   padding: 50px;
 }
-.direccion li {
+.li {
   list-style: none;
+  font-size: 20px;
+}
+
+.btnfooter {
+  border-style: none;
+  font-size: 18px;
+}
+.modal-body {
+  color: black;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }
