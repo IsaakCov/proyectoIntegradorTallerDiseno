@@ -1,5 +1,8 @@
-.sidebar {background-color:rgb(116, 152, 184);
-    backdrop-filter: blur(10px);}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+/* nav */
+
+.sidebar {background-color:rgb(116, 152, 184)}
 
 .btn-cotiza
 {
@@ -17,18 +20,14 @@
 }
 
 
-.btn{
-    font-weight: 500;
-    text-transform: uppercase;
-    transition: 0.5s;
-}
-
-
 .btn.btn-primary,
 .btn.btn-secondary
 {
     color: white;
 }
+
+#nav-principal
+{background-color: white;}
 
 /* header */
 
@@ -39,7 +38,7 @@
     right: 0;
     bottom: 0;
     z-index:1;
-    background-color: rgba(9, 16, 47, 0.6);
+    background-color: rgba(37, 68, 94, 0.6);
 }
 
 .carousel-control-prev,
@@ -55,6 +54,33 @@
     height:3rem;
 }
 
-#nav-principal
-{background-color: white;}
 
+.btn-light{
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.5s;
+    font-size: 2vh;
+}
+
+.carousel-item
+{
+    min-height: 80vh;
+}
+
+#slide1
+{
+    background-image: url(/img/hero-slide.png);
+    background-size:cover;
+}
+
+#slide2
+{
+    background-image: url(/img/hero-slide2.png);
+    background-size:cover;
+}
+
+.carousel-item h2
+{
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
