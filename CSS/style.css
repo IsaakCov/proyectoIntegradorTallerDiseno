@@ -77,21 +77,24 @@ h1 {
 
 /* FIN STYLE GALERIA */
 
-/* STYLE MAPA INICIO */
-.mapouter {
-  background-color: rgb(64, 102, 145);
-  position: relative;
-  text-align: center;
-  height: 100%;
-  width: 100%;
-  color: white;
-}
-
 .gmap_canvas {
   overflow: hidden;
   background: none !important;
   height: 410px;
   width: 550px;
 }
-
-/* STYLE MAPA FIN */
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
