@@ -69,13 +69,13 @@
 
 #slide1
 {
-    background-image: url(/img/hero-slide.png);
+    background-image: url(../img/hero-slide.png);
     background-size:cover;
 }
 
 #slide2
 {
-    background-image: url(/img/hero-slide2.png);
+    background-image: url(../img/hero-slide2.png);
     background-size:cover;
 }
 
