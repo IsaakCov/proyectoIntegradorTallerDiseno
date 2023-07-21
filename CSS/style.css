@@ -62,3 +62,56 @@ ul{
     padding: 0;
 
 }
+
+/* STYLE GALERIA */
+
+img{
+	max-width: 100%;
+}
+.gallery{
+	background-color: white;
+	padding: 85px 0;
+}
+.gallery img{
+	background-color: rgb(64, 102, 145);
+	padding: 15px;
+	width: 100%;
+	box-shadow: 0 0 15px rgba(0,0,0,0.3);
+	cursor: pointer;
+}
+#gallery-modal .modal-img{
+	width: 100%;
+	
+	
+	
+}
+h1{
+    text-align: center;
+}
+
+
+
+/* FIN STYLE GALERIA */
+
+ /* STYLE MAPA INICIO */
+ .mapouter {
+    background-color: rgb(64, 102, 145);
+    position: relative;
+    text-align: center;
+    height: 450px;
+    width: 550px;
+    color: white;
+
+}
+
+.gmap_canvas{
+    
+    overflow: hidden;
+    background: none !important;
+    height: 410px;
+    width: 550px;
+    
+}
+
+/* STYLE MAPA FIN */
+    
